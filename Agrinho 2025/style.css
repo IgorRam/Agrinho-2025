@@ -48,6 +48,8 @@ header {
 .texto_corpo h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    color: #007011;
+    font-family: var(--fonte-terciaria);
 }
 
 .texto_corpo {
@@ -65,13 +67,31 @@ header {
     margin: 0 auto;
 }
 
-.texto_jornalistico {
+.texto {
     text-align: left;
     padding: 0.625rem 0;
-    color: rgb(75, 75, 75);
     font-size: 1.1875rem;
     line-height: 1.6;
     margin-bottom: 1rem;
+    color: rgb(75, 75, 75);
+    font-family: var(--fonte-terciaria);
+}
+
+.titulo_sobre {
+    padding: 4rem;
+    font-size: 2.8rem;
+    color: #007011;
+    margin-bottom: 25px;
+    font-family: var(--fonte-primaria);
+}
+
+.texto_sobre {
+    text-align: left;
+    font-size: 1.1875rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: rgb(50, 50, 50);
+    font-family: var(--fonte-terciaria);
 }
 
 .content {
@@ -142,4 +162,13 @@ header {
 
 .itens_noticias a:hover {
     text-decoration: underline;
+}
+
+footer {
+    background-color: #007011;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 20px;
 }
