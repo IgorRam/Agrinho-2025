@@ -77,7 +77,7 @@ header {
     font-family: var(--fonte-terciaria);
 }
 
-.content {
+.content_index {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -155,10 +155,7 @@ footer {
     padding: 20px;
 }
 
-/* Código de sobre*/
-
-
-.titulo_sobre {
+.titulo_outras_paginas {
     padding: 2rem;
     font-size: 2.8rem;
     color: #007011;
@@ -167,7 +164,7 @@ footer {
 
 }
 
-.texto_sobre {
+.texto_outras_paginas {
     text-align: left;
     font-size: 1.25rem;
     line-height: 1.6;
@@ -225,4 +222,23 @@ footer {
     font-size: 1.2rem;
     font-weight: 400;
     text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .content_index {
+        max-width: 1250px;
+    }
+
+    .content_sobre {
+        max-width: 1250px;
+    }
+    .texto_outras_paginas{
+        max-width: 90%;
+    }
+    .content_agrinho {
+        max-width: 1250px;
+    }
+    .banner {
+        max-width: 100%;
+    }
 }
