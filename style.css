@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Variáveis de cores e fontes */
+
 :root {
     --fonte-primaria: "Montserrat", sans-serif;
     --fonte-secundaria: "Raleway", sans-serif;
     --fonte-terciaria: "Lexend", sans-serif;
     --fonte-quatrinário: "Roboto", sans-serif;
 
-    --cor-preta: rgb(0, 0, 0);
+    --cor-preta: #000000;
+    --cor-verde: #007011;
+    --cor-branca: #ffffff;
 }
 
 *{
@@ -14,19 +18,21 @@
     padding: 0;
 }
 
+/* Corpo da página */
+
 header {
-    background-color: #007011;
+    background-color: var(--cor-verde);
     border-bottom: 2px solid var(--cor-preta);
 }
 
 .Botao_cabecalho a {
     text-decoration: none;
     transition: color 0.3s ease;
-    color: black;
+    color: var(--cor-preta);
 }
 
 .Botao_cabecalho a:hover {
-    color: white;
+    color: var(--cor-branca);
 }
 
 .Botao_cabecalho {
@@ -48,7 +54,7 @@ header {
 .texto_corpo h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #007011;
+    color: var(--cor-verde);
     font-family: var(--fonte-terciaria);
 }
 
@@ -104,7 +110,7 @@ header {
     width: 100%; 
     max-width: 325px;
     height: auto; 
-    background-color: #ffffff;
+    background-color: var(--cor-branca);
     border: 2px solid #c0c0c0;
     border-radius: 25px;
     padding: 20px;
@@ -146,19 +152,10 @@ header {
     text-decoration: underline;
 }
 
-footer {
-    background-color: #007011;
-    text-align: center;
-    font-family: var(--fonte-primaria);
-    font-size: 1.2rem;
-    font-weight: 600;
-    padding: 20px;
-}
-
 .titulo_outras_paginas {
     padding: 2rem;
     font-size: 2.8rem;
-    color: #007011;
+    color: var(--cor-verde);
     font-family: var(--fonte-primaria);
     text-align: center;
 
@@ -176,7 +173,7 @@ footer {
 }
 
 .texto_outras_paginas a {
-    color: #007011;
+    color: var(--cor-verde);
 }
 
 .linha_divisoria {
@@ -197,7 +194,7 @@ footer {
     width: 100%; 
     max-width: 325px;
     height: auto; 
-    background-color: #ffffff;
+    background-color: var(--cor-branca);
     border: 1px solid #c0c0c0;
     border-radius: 25px;
     padding: 20px;
@@ -226,6 +223,17 @@ footer {
     font-weight: 400;
     text-align: center;
 }
+
+footer {
+    background-color: var(--cor-verde);
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 20px;
+}
+
+/* Adaptação de tela */
 
 @media (max-width: 1200px) {
     .content_index {
