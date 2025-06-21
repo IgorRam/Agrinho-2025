@@ -12,3 +12,4 @@
 <p>Criado por aluno <strong>Igor Ramos</strong> e professora <strong>Juliana Jacopetti</strong></p>
 <p>Imagem do banner da página de início é gerada por inteligencia artificial</p>
 <p>Texto criado por <strong>Igor Ramos</strong> e certa parte por <strong>inteligencia artificial</strong></p>
+<p>Informações pesquisadas no <a href="agricultura.pr.gov.br">agricultura.pr.gov.br</a> e <a href="gov.br/conab/pt-br">gov.br/conab/pt-br</a></p>
