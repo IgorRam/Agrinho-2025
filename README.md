@@ -7,3 +7,7 @@
 
 <h3>Página agrinho</h3>
 <p>No topo da página tem botões para ser redirecionado em outras páginas do site, e nesta página é contado sobre o que é o Agrinho, e seus objetivos.</p>
+
+<h1>Créditos</h1>
+<p>Criado por aluno <strong>Igor Ramos</strong> e professora <strong>Juliana Jacopetti</strong></p>
+<p>Imagem do banner da página de início é gerada por inteligencia artificial</p>
